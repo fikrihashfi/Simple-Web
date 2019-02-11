@@ -1,0 +1,123 @@
+html{
+ margin: 0;
+ height: 100%;
+
+}
+
+@media screen and (max-width: 800px) {
+    .hide {
+      display: none;
+    }
+  }
+
+body{margin: 0; height: 100%;}
+
+.box{
+    border: solid 2px gray;
+}
+
+.bg-black{background-color: black;}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;   
+}
+
+.navbar-transparent{
+    background-color: transparent;
+    color: white;
+}
+
+.card{background-color: transparent;}
+
+.bg-img-piano{background-image: url("../Image/Piano.jpg");}
+.bg-img-drum{background-image: url("../Image/drum.jpg"); background-size: cover;}
+.bg-img-mic{background-image: url("../Image/mic.jpg"); background-size: cover;}
+.bg-img-guitar{background-image: url("../Image/guitar.jpg"); background-size: cover;}
+
+.pointer-cursor{cursor: pointer;}
+
+.custom-card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+   background-color: rgba(0,0,0,0.3);
+   -moz-transition: box-shadow 0.4s ease;
+   -webkit-transition: box-shadow 0.4s ease;
+   -o-transition: box-shadow 0.4s ease;
+   -ms-transition: box-shadow 0.4s ease;
+   transition: box-shadow 0.4s ease;
+   -moz-box-shadow: 0 35px 30px -30px rgba(0,0,0,0.4);
+   -webkit-box-shadow: 0 35px 30px -30px rgba(0,0,0,0.4);
+   -o-box-shadow: 0 35px 30px -30px rgba(0,0,0,0.4);
+   -ms-box-shadow: 0 35px 30px -30px rgba(0,0,0,0.4);
+    box-shadow: 0 35px 30px -30px rgba(0,0,0,0.4);
+}
+
+.custom-card-white {
+    margin-top: 20px;
+    margin-bottom: 20px;
+   background-color: rgba(255,255,255,0.3);
+   -moz-transition: box-shadow 0.4s ease;
+   -webkit-transition: box-shadow 0.4s ease;
+   -o-transition: box-shadow 0.4s ease;
+   -ms-transition: box-shadow 0.4s ease;
+   transition: box-shadow 0.4s ease;
+   -moz-box-shadow: 0 35px 30px -30px rgba(255,255,255,0.4);
+   -webkit-box-shadow: 0 35px 30px -30px rgba(255,255,255,0.4);
+   -o-box-shadow: 0 35px 30px -30px rgba(255,255,255,0.4);
+   -ms-box-shadow: 0 35px 30px -30px rgba(255,255,255,0.4);
+    box-shadow: 0 35px 30px -30px rgba(255,255,255,0.4);
+}
+
+.custom-card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.custom-card-white:hover {
+    box-shadow: 0 14px 28px rgba(255,255,255,0.25), 0 10px 10px rgba(255,255,255,0.22);
+}
+
+
+.lobsfont{
+    font-family: 'Lobster', cursive; 
+    color: bisque;
+}
+
+.blue-color{color:rgb(0, 128, 111);}
+
+
+.fb-logo,.twitter-logo,.instagram-logo,.whatsapp-logo,.youtube-logo{
+    width: 40px;
+    cursor: pointer;
+}
+
+.location-logo, .phone-book-logo, .email-logo{
+    width: 20px;
+}
+
+footer{
+    background-color: rgb(41, 39, 39) ;
+    text-align: center;
+    color: white;
+}
+
+#drum-bg-fixed {
+    background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../Image/drum.jpg) fixed center center;
+    background-size: cover;
+    padding: 10px 0;
+  }
+
+#piano-bg-fixed {
+    background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../Image/Piano.jpg) fixed center center;
+    background-size: cover;
+    padding: 10px 0;
+}
+
+#music-bg-fixed {
+    background: url(../Image/music-bg.jpg) fixed center center;
+    background-size: cover;
+    padding: 50px 0;
+}
+

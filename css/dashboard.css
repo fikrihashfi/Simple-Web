@@ -1,0 +1,25 @@
+body {
+  padding-top: 54px;
+  color: white;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+    color: white;
+  }
+}
+
+/* .slide-img{
+  width: 1100px;
+  height: 400px;
+} */
+
+.instrument-img{
+  width: 350px;
+  height: 350px;
+}
+
+.not-allowed-pointer{
+ cursor: not-allowed; 
+}
